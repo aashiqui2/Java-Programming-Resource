@@ -6,6 +6,5 @@ public class  B_Branch_Office extends Branch_Office{
         objoffice.celebrate_local_function();//child
         objoffice.recruit();//office method-->parent 
           
-    }
-    
+    }   
 }

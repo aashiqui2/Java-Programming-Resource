@@ -13,7 +13,6 @@ public class Boys {
 		boy.gotoShop();
 		Boys.provide_chocolate();
 		//System.out.println(this.name);
-
 	}
 	 static void provide_chocolate() {
 		 //Cannot use this in the static context

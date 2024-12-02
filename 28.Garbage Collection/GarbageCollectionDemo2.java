@@ -16,7 +16,7 @@ public class GarbageCollectionDemo2 {
             GCD2=null;
             GCD2=GCD3.gcd;
             GCD3=null;
-            System.out.println(GCD1.gcd);//error
+            // System.out.println(GCD1.gcd);//error
 
             System.out.println(GCD1);
             System.out.println(GCD2);

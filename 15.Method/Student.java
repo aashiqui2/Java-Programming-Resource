@@ -1,20 +1,18 @@
-class Student
-{
-void display()
-{
-System.out.println(School.name);
-}
-public static void main(String[] args)
-{
+class Student {
+    void display() {
+        System.out.println(School.name);
+    }
 
-School schoolObj=new School();
-schoolObj.admit();
-schoolObj.salary();
-System.out.println(schoolObj.salary);
- 
-Student studentobj=new Student();
-studentobj.display();
+    public static void main(String[] args) {
 
-}
+        School schoolObj = new School();
+        schoolObj.admit();
+        schoolObj.salary();
+        System.out.println(schoolObj.salary);
+
+        Student studentobj = new Student();
+        studentobj.display();
+
+    }
 
 }

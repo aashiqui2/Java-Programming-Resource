@@ -50,19 +50,19 @@ class Main {
         // int result=a*b;
         // System.out.println(result);
 
-        byte b = 42;
-        char c = 'a';
-        short s = 1024;
-        int i = 50000;
-        float f = 5.67f;
-        double d = .1234;
+        // byte b = 42;
+        // char c = 'a';
+        // short s = 1024;
+        // int i = 50000;
+        // float f = 5.67f;
+        // double d = .1234;
 
         // System.out.println(result);
         // System.out.println(f*b);
         // System.out.println(i/c);
         // System.out.println(d*s);
 
-        double result = (f * b) + (i / c) - (d * s);
+        // double result = (f * b) + (i / c) - (d * s);
 
     }
 }

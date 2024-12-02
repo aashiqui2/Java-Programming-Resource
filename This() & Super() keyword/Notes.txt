@@ -10,7 +10,7 @@ used to refer parent class constructor
 
 super() must be first statement in derived class Constructor 
 
-if a constructor  does not  explicitly invoke  a superclass  constructor  by using super(),the java compiler automatically inserts a acall to the no-argument constructor of the super class 
+if a constructor  does not  explicitly invoke  a superclass  constructor  by using super(),the java compiler automatically inserts a call to the no-argument constructor of the super class 
 
 super() can call both parametric as well as non-parametric constructor depending upon the situation     
 

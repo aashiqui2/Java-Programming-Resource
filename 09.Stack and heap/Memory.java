@@ -18,12 +18,12 @@ public class Memory {
         // System.out.println(Arrays.toString(zig));
         // System.out.println(Arrays.toString(zag));
 
-        // int[] zig = new int[4];
-        // zig[1]=2;
-        // int[] zag = { 1, 2, 3, 4 };
-        // zag[1]=5;
-        // System.out.println(Arrays.toString(zig));
-        // System.out.println(Arrays.toString(zag));
+        int[] zig = new int[4];
+        zig[1]=2;
+        int[] zag = { 1, 2, 3, 4 };
+        zag[1]=5;
+        System.out.println(Arrays.toString(zig));
+        System.out.println(Arrays.toString(zag));
     }
 
 }

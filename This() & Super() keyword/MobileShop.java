@@ -8,7 +8,7 @@ public class MobileShop {
         System.out.println(disc);
     }
     public MobileShop(int price, int disc) {
-        this();error: recursive constructor invocation
+       // this();//error: recursive constructor invocation
         System.out.println(price - disc);
     }
     public static void main(String[] args) {

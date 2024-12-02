@@ -1,67 +1,112 @@
-Java 8* Features :Lambda Expressions
+Lambda Expressions:
+WHY:
+Functional Programming
 
-1)Functional Programming
-2)Functional Interfaces
-3)Default Methods
+WHAT:
+Anonymous functons:Closures(method with no name)
 
-Funtion-methods
-Anonymous function-closure-lambda expression
+Function -Method:
 
-Anonymous Function-Method(motta kadithasi)
+HOW:
+public void display()
+{
+    sysout("hi");
+}
 
-function-method with no name
+1) Remove method name
+public void ()
+{
+    sysout("hi");
+}
 
-Functional Programming-->Function
-(Concise Coding)(small coding)
 
+2) Remove return datatype
+public ()
+{
+    sysout("hi");
+}
 
+3) Remove Access Modifier
+() 
+{
+    sysout("hi");
+}
+ 
+4) Add -> in between () and {}
+()-> 
+{
+    sysout("hi");
+}
 
+Eg. 2:
 public void add(int no1,int no2)
 {
 System.out.pritln("no1+no2");
 }
 
-no need for
-1)Access Modifier
-2)return datatype
-3)Name
-
-
-Anonymous Function
-(int no1,int no2)->
+(no1,no2)->
 {
 System.out.pritln("no1+no2");
 }
 
-()->System.out.println("Hi");
+# we have only one argument then
+no1->
+{
+System.out.pritln("no1+no2");
+}
 
-@Functionaliterface-->annotation
+# we have only one line then remove {}
+no1->System.out.pritln("no1+no2");
+
+
+
+
+Eg. 3:
+public void add(int no1,int no2)
+{
+return no1+no2;
+}
+
 Functional Interfaces:
+Compareable
+Runnable
 
-single abstract method-Functional Interface
+An interface with only one abstract method.Apart from this abstract method, we can have any number of default and static methods.
 
-Runnable() -run()
-Callable() -call()
-Compareable() -compareTo()
+Functional Interface
 
-abstract X 1
-default  X n times
-static X n times
+default method,static methods:
 
-Marker interface:
-RandomAccess->no method
-Serializable->no method
-Cloneable->no method
-
+Without Lamda:
+interface Contract
+{
+public void rule1();
+}
 
 
-(int no1,no2)->{return no1*no2;}
+class Citizen implements Contract{
+    public void rule1{
+        sysout("hi");
+    }
+}
 
-(int no1,no2)->return no1*no2;
+class ABCD{
+    p s  v main(){
+        Contract ci=new Citizen();//dynamic binding
+        Citizen ci=new Citizen();//static binding
+        ci.rule1();
+    }
+}
 
-(int no1,no2)-> no1*no2;
+@FunctionalInterface - add anotations
 
-Multiparadigm Programming Languages
-js,java,Python
+
+
+inner classs:
+Anonymous class
+
+
+
+
 
 
