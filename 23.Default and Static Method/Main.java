@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.List;
-public class Demo {
+public class Main {
     public static void main(String[] args) {
         // Function<String,Integer> f=(name)->name.length();
         // System.out.println(f.apply("aashiqui"));//return length of the string.
