@@ -3,9 +3,14 @@ class Demo{
     {
     //    literals
     int num=0b101;//binary format
-    num=0x7E;
-    // num=10_00_00_000;
     System.out.println(num);
+    
+    num=0x7E;
+    System.out.println(num);
+
+    num=10_00_00_000;
+    System.out.println(num);
+
     float num1=3.14f;
     //the Java compiler will treat it as a double by default
     System.out.println(num1);
@@ -19,6 +24,7 @@ class Demo{
 
     char c='e';
     System.out.println(c);
+    
     c++;
     System.out.println(c);
     }
